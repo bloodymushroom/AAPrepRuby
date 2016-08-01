@@ -83,6 +83,17 @@ Declare variables by assigning them: `myVar = 1` or `hello_string = "Hello" `. Y
 
 ### Creating a Function
 
+General Syntax:
 
+```
+def function_name arg1, arg2, ... , argN
+ { code }
+ end
+```
 
+Calling the function:
+```
+> function_name arg1, arg2 ... argN
+output
+```
 
