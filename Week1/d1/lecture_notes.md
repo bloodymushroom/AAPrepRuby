@@ -78,7 +78,8 @@ Declare variables by assigning them: `myVar = 1` or `hello_string = "Hello" `. Y
 - `.downcase`
 - `.capitalize`
 - `.length`
-- `.index( #insert string here )`
+- `.index( substring )` # returns numberical index of the substring
+- `.include? substring` # returns true if substring is present and false if not
 - `+`
 
 ### Creating a Function
