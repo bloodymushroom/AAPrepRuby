@@ -24,6 +24,13 @@
   - <b>i</b>: insert mode
   - <b>esc, then :wq</b> to write and quit
 
+### How to create an alias
+- Open ~/.bash_profile (or create using a text editor if none exists) and type in line:
+  - <b>alias cmd='actual command'</b>
+  - <b>source .bash_profile</b> to reset the terminal
+  - now your alias should run!
+- [Good Resource for how to add Sublime Text alias] (https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal)
+
 ### Useful Node commands
 - <b>npm i -D libraryName</b>: -i = install, -D = Developer dependency
   - ex. eslint babel babel-preset-es2015 is a developer dependency; you use it during development but not during production
