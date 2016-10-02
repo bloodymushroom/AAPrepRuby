@@ -20,6 +20,9 @@
 - <b>rm</b>: remove file
   - <b>rm -rf</b>: remove folder
 - <b>touch fileName</b>: create file
+- <b>vim fileName</b>: create and write file
+  - <b>i</b>: insert mode
+  - <b>esc, then :wq</b> to write and quit
 
 ### Useful Node commands
 - <b>npm i -D libraryName</b>: -i = install, -D = Developer dependency
